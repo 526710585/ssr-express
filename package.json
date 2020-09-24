@@ -1,0 +1,17 @@
+{
+  "name": "ssr-express",
+  "version": "1.0.0",
+  "description": "练习ssr",
+  "main": "src/serve.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.12",
+    "vue-server-renderer": "^2.6.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon --watch src -e html js"
+  },
+  "author": "1",
+  "license": "ISC"
+}
